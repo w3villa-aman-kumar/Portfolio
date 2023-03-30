@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fo-family:Baloo Paaji;
+    --fo-color:#695aa6;
+}
+
+/* common css */
+a:link{
+    text-decoration: none;
+}
+
+.common-class{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.common-class h1{
+    font-family: var(--fo-family);
+    color: var(--fo-color);
+}
+
+.btn{
+    background-color: var(--fo-color);
+    border: none;
+}
+
+
+/* header css start */
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    padding-top: 15px;
+}
+
+#menu{
+    list-style: none;
+    float: right;
+}
+
+#menu li {
+    display: inline-block;
+    padding:   0px 20px;
+    color: white;
+    font-size: 1.4em;
+}
+
+header a{
+    color: white;
+    font-family: var(--fo-family);
+}
+
+#logo{
+    font-size: 2.2em;
+}
+
+.header-container .row{
+    justify-content: space-between;
+}
+
+#hambergur{
+    font-size: 36px;
+    display: none;
+}
+
+#bar{
+    color: white;
+}
+
+#xmark{
+    color: white;
+}
+
+/* hero section */
+.hero{
+    position: relative;
+    height: 100vh;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+}
+
+#hero-container{
+    background-image: url('../image/header.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text-wrapper{
+    max-width: 550px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero-text-wrapper h1{
+    font-family: var(--fo-family);
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.hero-text-wrapper p{
+    font-size: 2em;
+    font-family: serif;
+}
+
+.hero-text-wrapper button{
+    border-radius: 50px;
+    font-size: 1.2em;
+}
+
+/* About Me css starts here */
+.about_me-image{
+    min-width: 400px;
+    max-width: 400px;
+}
+
+.about_me-image img{
+    width: 100%;
+}
+
+.about_me-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.about_me-text{
+    padding: 2em;
+    text-align: center;
+}
+
+.about_me-text h1{
+    font-family: var(--fo-family);
+    color: var(--fo-color);
+}
+
+/* service section start here */
+.service{
+    padding-top: 4em;
+}
+
+.service-img img{
+    width: 200px;
+    padding: 30px;
+    margin: auto;
+}
+
+/* portfolio section start her */
+.portfolio{
+    padding-top: 4em;
+}
+
+.carousel-item img{
+    height: 400px;
+}
+
+.carousel-caption{
+    color: var(--fo-color);
+}
+
+/* pricing section css start here */
+.pricing{
+    padding-top: 4rem;
+}
+
+.pricing-card-container{
+    padding-top: 4em;
+}
+
+.pricing-card-container .card img{
+    width: 70px;
+    margin: auto;
+}
+
+.pricing-card-container .card{
+    text-align: center;
+}
+
+.pricing-card-container .card .card-title{
+    color: var(--fo-color);
+    font-family: var(--fo-family);
+}
+
+.pricing-card-container .card li{
+    border: none;
+}
+
+.pricing-card-container .card-footer{
+    background-color: #fff;
+    border: none;
+}
+
+
+/* hire me css start here */
+.hire-me{
+    margin-top: 4em;
+    background-color: var(--fo-color);
+}
+
+.hire-me .container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 2em 0;
+}
+
+.hire-me-text h4{
+    font-family: var(--fo-family);
+}
+
+.hire-me-button button{
+    background-color: white;
+    color: black;
+    font-family: var(--fo-family);
+}
+
+/* testimonial css starts here */
+.testimonial{
+    padding: 70px 0px;
+}
+
+.testimonial-card{
+    display: flex;
+}
+
+.testimonial-img{
+    max-width: 70px;
+}
+
+.testimonial-img img{
+    width: 100%;
+    border-radius: 40px;
+    transform: translateY(-50%);
+    left: 30px;
+    z-index: 9;
+    position: relative;
+    top: 50%;
+}
+
+.testimonial-text{
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #bab5b5;
+}
+
+.testimonial-text h2{
+    font-family: var(--fo-family);
+    color: var(--fo-color);
+}
+
+
+/* blog css start here */
+.blog{
+    padding: 70px 0px;
+}
+
+.blog-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog-card{
+    margin-bottom: 20px;
+}
+
+
+/* Contact me css */
+.contact-me{
+    padding: 70px 0;
+}
+
+form textarea{
+    width: 100%;
+}
+
+.contact-me-form .row{
+    padding-bottom: 20px;
+}
+
+.send-btn-row{
+    justify-content: center;
+}
+
+.send-btn-row button{
+    color: white;
+}
+
+
+/* bottom css */
+.bottom-container{
+    border-top:1px solid #bab5b5;
+}
+
+.bottom-container .row{
+    text-align: center;
+}
+
+
+/* media query starts here */
+@media screen and (max-width:992px) {
+    #menu li{
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .menu-container{
+        width: 100%;
+    }
+
+    .menu-container ul{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+    }
+
+    #menu li{
+        display: block;
+    }
+
+    .about_me-wrapper{
+        flex-direction: column;
+    }
+
+    #hambergur{
+        display: block;
+    }
+
+    #xmark{
+        display: none;
+    }
+
+    .header-container .row .show{
+        display: block;
+    }
+
+    .menu-container{
+        display: none;
+    }
+
+    .service-img div{
+        padding-bottom: 30px;
+    }
+
+    .pricing-card-container div{
+        padding-bottom: 30px;
+    }
+
+    .testimonial-card{
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #logo{
+        font-size: 1.8em;
+    }
+
+    .about_me-image{
+        min-width: 300px;
+    }
+
+    .hero-text-wrapper{
+        max-width: 450px;
+    }
+
+    .hero-text-wrapper h1{
+        font-size: 3em;
+    }
+
+    .hero-text-wrapper p{
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .hero-text-wrapper{
+        max-width: 350px;
+    }
+
+    .hero-text-wrapper h1{
+        font-size: 2em;
+    }
+
+    .hero-text-wrapper p{
+        font-size: 1em;
+    }
+
+}
