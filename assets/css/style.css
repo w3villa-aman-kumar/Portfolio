@@ -8,7 +8,8 @@
     --fo-color:#695aa6;
 }
 
-/* common css */
+
+/**** common css ****/
 a:link{
     text-decoration: none;
 }
@@ -29,7 +30,8 @@ a:link{
 }
 
 
-/* header css start */
+
+/**** header css start ****/
 header{
     position: fixed;
     z-index: 999;
@@ -76,7 +78,7 @@ header a{
     color: white;
 }
 
-/* hero section */
+/**** hero section ****/
 .hero{
     position: relative;
     height: 100vh;
@@ -120,7 +122,9 @@ header a{
     font-size: 1.2em;
 }
 
-/* About Me css starts here */
+
+
+/**** About Me css starts here ****/
 .about_me-image{
     min-width: 400px;
     max-width: 400px;
@@ -145,7 +149,9 @@ header a{
     color: var(--fo-color);
 }
 
-/* service section start here */
+
+
+/**** service section start here ****/
 .service{
     padding-top: 4em;
 }
@@ -156,7 +162,9 @@ header a{
     margin: auto;
 }
 
-/* portfolio section start her */
+
+
+/**** portfolio section start her ****/
 .portfolio{
     padding-top: 4em;
 }
@@ -169,7 +177,9 @@ header a{
     color: var(--fo-color);
 }
 
-/* pricing section css start here */
+
+
+/**** pricing section css start here ****/
 .pricing{
     padding-top: 4rem;
 }
@@ -202,7 +212,8 @@ header a{
 }
 
 
-/* hire me css start here */
+
+/**** hire me css start here ****/
 .hire-me{
     margin-top: 4em;
     background-color: var(--fo-color);
@@ -225,7 +236,9 @@ header a{
     font-family: var(--fo-family);
 }
 
-/* testimonial css starts here */
+
+
+/**** testimonial css starts here ****/
 .testimonial{
     padding: 70px 0px;
 }
@@ -259,7 +272,9 @@ header a{
 }
 
 
-/* blog css start here */
+
+
+/**** blog css start here ****/
 .blog{
     padding: 70px 0px;
 }
@@ -274,7 +289,8 @@ header a{
 }
 
 
-/* Contact me css */
+
+/**** Contact me css ****/
 .contact-me{
     padding: 70px 0;
 }
@@ -296,7 +312,9 @@ form textarea{
 }
 
 
-/* bottom css */
+
+
+/**** bottom css ****/
 .bottom-container{
     border-top:1px solid #bab5b5;
 }
@@ -306,13 +324,19 @@ form textarea{
 }
 
 
-/* media query starts here */
+
+/**** media query starts here ****/
+
+/**** media screen 992px ****/
 @media screen and (max-width:992px) {
     #menu li{
         padding: 0px 10px;
     }
 }
 
+
+
+/**** media screen 768px ****/
 @media screen and (max-width:768px){
     .menu-container{
         width: 100%;
@@ -361,6 +385,10 @@ form textarea{
     }
 }
 
+
+
+
+/**** media screen 576px ****/
 @media screen and (max-width:576px) {
     #logo{
         font-size: 1.8em;
@@ -384,6 +412,9 @@ form textarea{
 
 }
 
+
+
+/**** media screen 576px ****/
 @media screen and (max-width:576px) {
     .hero-text-wrapper{
         max-width: 350px;
